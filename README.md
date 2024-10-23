@@ -1,5 +1,5 @@
 CEO Dashboard
-Overview
+Overviews
 The CEO Dashboard is a comprehensive web application that allows business leaders to monitor and analyze essential business metrics such as sales, profit, and orders. The application is designed to provide real-time data visualization and allows users to customize the layout based on their needs.
 
 Features
