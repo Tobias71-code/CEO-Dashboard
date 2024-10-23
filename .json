@@ -1,0 +1,65 @@
+{
+    "user": {
+      "username": "CEO",
+      "theme": "light",
+      "language": "en"
+    },
+    "widgets": {
+      "sales": {
+        "enabled": true,
+        "title": "Sales",
+        "data_source": "https://api4.binance.com/api/v3/ticker/24hr/sales"
+      },
+      "profit": {
+        "enabled": true,
+        "title": "Profit",
+        "data_source": "https://api4.binance.com/api/v3/ticker/24hr/profit"
+      },
+      "orders": {
+        "enabled": true,
+        "title": "Orders",
+        "data_source": "https://api4.binance.com/api/v3/ticker/24hr/orders"
+      }
+    },
+    "dashboard_layout": {
+      "sidebar": {
+        "visible": true,
+        "position": "left"
+      },
+      "right_sidebar": {
+        "visible": true,
+        "contains": ["todoList"]
+      },
+      "chart": {
+        "salesRevenueChart": {
+          "type": "line",
+          "data": {
+            "labels": ["January", "February", "March", "April", "May", "June"],
+            "datasets": [{
+              "label": "Sales Revenue",
+              "data": [12000, 15000, 13000, 20000, 22000, 18000],
+              "backgroundColor": "rgba(75, 192, 192, 0.2)",
+              "borderColor": "rgba(75, 192, 192, 1)",
+              "borderWidth": 1
+            }]
+          },
+          "options": {
+            "responsive": true,
+            "scales": {
+              "y": {
+                "beginAtZero": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "todoList": {
+      "tasks": [
+        { "id": 1, "task": "Review Q1 sales report", "completed": false },
+        { "id": 2, "task": "Update marketing strategy", "completed": true },
+        { "id": 3, "task": "Schedule team meeting", "completed": false }
+      ]
+    }
+  }
+  
