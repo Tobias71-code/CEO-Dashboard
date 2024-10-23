@@ -63,7 +63,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Contact
 For questions or suggestions, feel free to contact:
 
-Name: Nethan Tobias
+Name: Nethan Tobias Obiya
 Email: Sbttobias@gmail.com
 GitHub: github.com/Tobias71-code
 
